@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@langchain/community": "^0.2.33",
+    "@langchain/langgraph": "^0.2.64",
     "@langchain/ollama": "^0.2.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.2.3",
