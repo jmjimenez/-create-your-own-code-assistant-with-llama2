@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import CustomConfigLoader from './custom-config/custom-config.service';
 import { ConfigModule } from '@nestjs/config';
 import { OllamaService } from './ollama/ollama.service';
+import { DataProcessingService } from './data-processing/data-processing.service';
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -12,6 +13,6 @@ import { OllamaService } from './ollama/ollama.service';
     })
   ],
   controllers: [AppController],
-  providers: [AppService, OllamaService],
+  providers: [AppService, OllamaService, DataProcessingService],
 })
 export class AppModule {}
