@@ -19,6 +19,11 @@
 | 01.06    | docker compose up db                        | /          |
 | 01.06    | npx prisma migrate dev --create-only        | /          |
 | 01.06    | npm install prisma @prisma/client           | /backend   |
+| 01.07    | nest g service data-processing              | /backend   |
+| 01.08    | next g service database                     | /backend   |
+|          |                                             |            |
+|          |                                             |            |
+|          |                                             |            |
 |          |                                             |            |
 
 |          |                                             |            |
