@@ -8,7 +8,7 @@ COPY backend/package.json ./
 # Install the dependencies in the Docker image
 RUN ["npm", "install", "--legacy-peer-deps"] 
 
-COPY backend .
+COPY backend/src ./src
 
 # Build the application
 RUN npm run build

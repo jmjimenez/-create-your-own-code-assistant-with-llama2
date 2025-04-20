@@ -53,5 +53,5 @@ networks:
     external: false
 volumes:
   backend:
-  ollama:
+  ollama/ollama:
   db:
