@@ -4,11 +4,23 @@
 # commands
 
 
-| Chapter  | Command                     | Folder     |
-|----------|-----------------------------|------------|
-| 01.04    | npm install -g @nestjs/cli  | /          |
-| 01.04    | nest new backend            | /          |
-| 01.04    | npm start                   | /backend   |
+| Chapter  | Command                                     | Folder     |
+|----------|---------------------------------------------|------------|
+| 01.04    | npm install -g @nestjs/cli                  | /          |
+| 01.04    | nest new backend                            | /          |
+| 01.04    | npm start                                   | /backend   |
+| 01.05    | nest g service custom-config                | /backend   |
+| 01.05    | npm i cosmiconfig @nestjs/config            | /backend   |
+| 01.05    | nest g service ollama                       | /backend   |
+| 01.05    | npm install @langchain/community langchain  | /backend   |
+| 01.05    | npm install @langchain/ollama               | /backend   |
+| 01.06    | npx prisma init                             | /          |
+| 01.06    | docker compose up                           | /          |
+|          |                                             |            |
+|          |                                             |            |
+|          |                                             |            |
+
+|          |                                             |            |
 
 
 # pending
