@@ -16,8 +16,9 @@
 | 01.05    | npm install @langchain/ollama               | /backend   |
 | 01.06    | npx prisma init                             | /          |
 | 01.06    | docker compose up                           | /          |
-|          |                                             |            |
-|          |                                             |            |
+| 01.06    | docker compose up db                        | /          |
+| 01.06    | npx prisma migrate dev --create-only        | /          |
+| 01.06    | npm install prisma @prisma/client           | /backend   |
 |          |                                             |            |
 
 |          |                                             |            |
