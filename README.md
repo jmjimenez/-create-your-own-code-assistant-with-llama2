@@ -26,15 +26,15 @@
 | 02.03    | nest g service retriever rag                                                                       | /backend   |
 | 02.03    | nest g class utils rag                                                                             | /backend   |
 | 03.01    | npx degit microsoft/vscode-webview-ui-toolkit-samples/frameworks/hellow-world-react-vite extension | /          |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
+| 03.01    | code extension/                                                                                    | /          |
+|          |                                                                                                    |            |
+|          |                                                                                                    |            |
+|          |                                                                                                    |            |
+|          |                                                                                                    |            |
+|          |                                                                                                    |            |
+|          |                                                                                                    |            |
 
-|          |                                             |            |
+|          |                                                                                                    |            |
 
 
 # pending
