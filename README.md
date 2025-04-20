@@ -21,10 +21,10 @@
 | 01.06    | npm install prisma @prisma/client           | /backend   |
 | 01.07    | nest g service data-processing              | /backend   |
 | 01.08    | next g service database                     | /backend   |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
-|          |                                             |            |
+| 02.02    | npx nest g service rag rag                  | /backend   |
+| 02.02    | npm install @langchain/langgraph            | /backend   |
+| 02.03    | nest g service retriever rag                | /backend   |
+| 02.03    | nest g class utils rag                      |            |
 
 |          |                                             |            |
 
